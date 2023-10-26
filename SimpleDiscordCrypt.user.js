@@ -39,7 +39,7 @@
   const IgnoreDiffKeyAge = 7 * 24 * 60 * 60 * 1000;
   const DiffKeyTrigger = 10;
 
-  const HeaderBarSelector = `.title_b7d661`;
+  const HeaderBarSelector = `div[class^=chat] > section[class^=title-]`;
   const HeaderBarChildrenSelector = `.children__32014`;
   const HeaderBarChannelNameSelector = `.titleWrapper-24Kyzc, .channelName-3aS_Eg`;
   const BackdropSelector = `div[class*="backdrop"]`;
